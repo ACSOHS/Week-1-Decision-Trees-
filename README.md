@@ -19,9 +19,10 @@ That's not what a decision tree actually does, but it's pretty close. A decision
 
 ## 1) Make sure you have Python and Scikit-Learn set up
 
-![Crashout](assets/throw-computer.gif)
+![Crashout](throw-computer.gif)
 
 VS Code: https://code.visualstudio.com
+
 youtube wisdom: https://www.youtube.com/watch?v=GM_xE2GDsfo
 
 ## 2) Pick a dataset from SciKit-Learn
@@ -34,6 +35,7 @@ https://scikit-learn.org/stable/datasets/toy_dataset.html
 
 Using the iris set as an example, making and training a tree would look a little like this:
 
+```
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
@@ -50,19 +52,20 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 #training the decsion tree
 clf = DecisionTreeClassifier()
 clf.fit(X_train, y_train)
+```
 
 ## 3) Make predictions on a new set of data 
 
 Now, to actually be able to use our decision tree, we're going to make an imaginary new flower with the following features:
-
+```
 flower1 = [[5.1, 3.5, 1.4, 0.2]] #[sepal length, sepal width, petal length, petal width]
-
+```
 And now, we can predict which flower we're looking at!
-
+```
 prediction = clf.predict(new_flower)
 print("Predicted class:", prediction)
 print("Predicted species name:", data['target_names'][prediction[0]])
-
+```
 ## 4) Try it yourself!!!!
 
 [the thingy]
