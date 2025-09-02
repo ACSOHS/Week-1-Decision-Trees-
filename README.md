@@ -68,7 +68,7 @@ print("Predicted species name:", data['target_names'][prediction[0]])
 ```
 ## 4) Try it yourself!!!!
 
-[the thingy]
+![:(](assets/artem-yakusha-artem.gif)
 
 Please. 
 
