@@ -3,7 +3,7 @@ Learn the most basic basicest decision tree in Python and use it to predict cool
 
 Decisions.
 
-[cat pondering]
+![Car](assets/jgmm-cat-meme.gif)
 
 We all have to make them.
 
