@@ -19,7 +19,7 @@ That's not what a decision tree actually does, but it's pretty close. A decision
 
 ## 1) Make sure you have Python and Scikit-Learn set up
 
-[computer thing]
+![Crashout](assets/throw-computer.gif)
 
 VS Code: https://code.visualstudio.com
 youtube wisdom: https://www.youtube.com/watch?v=GM_xE2GDsfo
